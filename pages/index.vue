@@ -24,6 +24,7 @@ export default {
       const vid = this.$refs.video
       if (!vid.muted) {
         this.$refs.text.textContent = "Unmute"
+
       } else {
         this.$refs.text.textContent = "Mute"
       }
